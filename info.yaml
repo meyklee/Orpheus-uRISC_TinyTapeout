@@ -1,0 +1,19 @@
+project:
+  name: "Orpheus-uRISC"
+  owner: "Hack Club"
+  description: "Tiny RISC-V SoC with PIO-lite and RP2040-assisted boot"
+  license: "MIT"
+  repo: "https://github.com/hackclub/orpheus-urisc-tt"
+  top_module: "tt_um_hackclub_orpheus_urisc"
+  clock_hz: 20000000
+  language: "verilog"
+interfaces:
+  - clk: "clk"
+  - reset: "rst_n"
+  - enable: "ena"
+  - dedicated_inputs: 8
+  - dedicated_outputs: 8
+  - bidirectional: 8
+notes:
+  - "Maps UART, SPI host-link, GPIO/PIO to TT's 26-pin interface."
+  - "Gate outputs with 'ena'; hold in reset until selected."
