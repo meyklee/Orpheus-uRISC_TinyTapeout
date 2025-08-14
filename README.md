@@ -1,4 +1,8 @@
 # Orpheus‑uRISC (TinyTapeout)
+#  https://chatgpt.com/g/g-689db816ff608191bf7a05877df876e8-orpheus-pico-gpt
+# https://poe.com/Orpheus_Pico_GPT
+# https://www.coze.cn/s/p7LlpvZaEko/
+# https://www.doubao.com/share?botId=7538390188222365735 
 Open-source RISC-V microcontroller for TinyTapeout shuttles.
 - CPU: PicoRV32 (RV32IC)
 - Bus: Wishbone (single master)
